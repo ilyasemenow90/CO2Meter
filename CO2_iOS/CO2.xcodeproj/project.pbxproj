@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5599A7DF1D12FD5600C9AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7DE1D12FD5600C9AB6A /* AppDelegate.swift */; };
-		5599A7E11D12FD5600C9AB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7E01D12FD5600C9AB6A /* ViewController.swift */; };
-		5599A7E41D12FD5600C9AB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7E21D12FD5600C9AB6A /* Main.storyboard */; };
-		5599A7E61D12FD5600C9AB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7E51D12FD5600C9AB6A /* Assets.xcassets */; };
-		5599A7E91D12FD5600C9AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7E71D12FD5600C9AB6A /* LaunchScreen.storyboard */; };
+		5599A7F91D130D4F00C9AB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F21D130D4F00C9AB6A /* Assets.xcassets */; };
+		5599A7FA1D130D4F00C9AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F31D130D4F00C9AB6A /* LaunchScreen.storyboard */; };
+		5599A7FB1D130D4F00C9AB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F51D130D4F00C9AB6A /* Main.storyboard */; };
+		5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */; };
 		71CF5C679AC8E8679D6E3716 /* Pods_CO2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C26330BA8A9FFDC953FF918 /* Pods_CO2.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +19,11 @@
 		0C26330BA8A9FFDC953FF918 /* Pods_CO2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CO2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5599A7DB1D12FD5600C9AB6A /* CO2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CO2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5599A7DE1D12FD5600C9AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5599A7E01D12FD5600C9AB6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5599A7E31D12FD5600C9AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5599A7E51D12FD5600C9AB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5599A7E81D12FD5600C9AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5599A7EA1D12FD5600C9AB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5599A7F21D130D4F00C9AB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5599A7F41D130D4F00C9AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5599A7F61D130D4F00C9AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5599A7F71D130D4F00C9AB6A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Co2MeterViewController.swift; sourceTree = "<group>"; };
 		B1A2868FDAF1EEEAA2ADC8ED /* Pods-CO2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.release.xcconfig"; sourceTree = "<group>"; };
 		F8EC6002CBE7809B8022A027 /* Pods-CO2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,14 +70,38 @@
 		5599A7DD1D12FD5600C9AB6A /* CO2 */ = {
 			isa = PBXGroup;
 			children = (
+				5599A7F11D130D4F00C9AB6A /* Resources */,
+				5599A7F81D130D4F00C9AB6A /* UI */,
+				5599A7F01D13070B00C9AB6A /* Model */,
 				5599A7DE1D12FD5600C9AB6A /* AppDelegate.swift */,
-				5599A7E01D12FD5600C9AB6A /* ViewController.swift */,
-				5599A7E21D12FD5600C9AB6A /* Main.storyboard */,
-				5599A7E51D12FD5600C9AB6A /* Assets.xcassets */,
-				5599A7E71D12FD5600C9AB6A /* LaunchScreen.storyboard */,
-				5599A7EA1D12FD5600C9AB6A /* Info.plist */,
 			);
 			path = CO2;
+			sourceTree = "<group>";
+		};
+		5599A7F01D13070B00C9AB6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5599A7F11D130D4F00C9AB6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5599A7F71D130D4F00C9AB6A /* Info.plist */,
+				5599A7F21D130D4F00C9AB6A /* Assets.xcassets */,
+				5599A7F31D130D4F00C9AB6A /* LaunchScreen.storyboard */,
+				5599A7F51D130D4F00C9AB6A /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5599A7F81D130D4F00C9AB6A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		FA92E91EBBABE49EE8E3A6E9 /* Frameworks */ = {
@@ -149,9 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5599A7E91D12FD5600C9AB6A /* LaunchScreen.storyboard in Resources */,
-				5599A7E61D12FD5600C9AB6A /* Assets.xcassets in Resources */,
-				5599A7E41D12FD5600C9AB6A /* Main.storyboard in Resources */,
+				5599A7FB1D130D4F00C9AB6A /* Main.storyboard in Resources */,
+				5599A7F91D130D4F00C9AB6A /* Assets.xcassets in Resources */,
+				5599A7FA1D130D4F00C9AB6A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,28 +234,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5599A7E11D12FD5600C9AB6A /* ViewController.swift in Sources */,
 				5599A7DF1D12FD5600C9AB6A /* AppDelegate.swift in Sources */,
+				5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5599A7E21D12FD5600C9AB6A /* Main.storyboard */ = {
+		5599A7F31D130D4F00C9AB6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5599A7E31D12FD5600C9AB6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5599A7E71D12FD5600C9AB6A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5599A7E81D12FD5600C9AB6A /* Base */,
+				5599A7F41D130D4F00C9AB6A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5599A7F51D130D4F00C9AB6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5599A7F61D130D4F00C9AB6A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -327,7 +351,7 @@
 			baseConfigurationReference = F8EC6002CBE7809B8022A027 /* Pods-CO2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CO2/Info.plist;
+				INFOPLIST_FILE = CO2/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Intellectsoft.CO2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +363,7 @@
 			baseConfigurationReference = B1A2868FDAF1EEEAA2ADC8ED /* Pods-CO2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CO2/Info.plist;
+				INFOPLIST_FILE = CO2/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Intellectsoft.CO2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
