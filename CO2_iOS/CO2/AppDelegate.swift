@@ -21,6 +21,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Backendless.sharedInstance().initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         
+        CO2Value.getLastValue { result in
+            switch result {
+            case .Success(let value):
+                print("Found: \(value)")
+                break
+                
+            case .Failure(_): break
+//                self.showError("Backendless Error", error.localizedDescription)
+            }
+        }
+        
         return true
     }
 

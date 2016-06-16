@@ -13,6 +13,9 @@
 		5599A7FB1D130D4F00C9AB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F51D130D4F00C9AB6A /* Main.storyboard */; };
 		5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */; };
 		71CF5C679AC8E8679D6E3716 /* Pods_CO2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C26330BA8A9FFDC953FF918 /* Pods_CO2.framework */; };
+		E94E689A1D131AA5002509E6 /* CO2Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E68991D131AA5002509E6 /* CO2Value.swift */; };
+		E94E689C1D131BA6002509E6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E689B1D131BA6002509E6 /* Result.swift */; };
+		E94E689E1D1323A4002509E6 /* UIViewController + Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E689D1D1323A4002509E6 /* UIViewController + Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		5599A7F71D130D4F00C9AB6A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Co2MeterViewController.swift; sourceTree = "<group>"; };
 		B1A2868FDAF1EEEAA2ADC8ED /* Pods-CO2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.release.xcconfig"; sourceTree = "<group>"; };
+		E94E68991D131AA5002509E6 /* CO2Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CO2Value.swift; sourceTree = "<group>"; };
+		E94E689B1D131BA6002509E6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E94E689D1D1323A4002509E6 /* UIViewController + Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Error.swift"; sourceTree = "<group>"; };
 		F8EC6002CBE7809B8022A027 /* Pods-CO2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +87,8 @@
 		5599A7F01D13070B00C9AB6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E94E68991D131AA5002509E6 /* CO2Value.swift */,
+				E94E689B1D131BA6002509E6 /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +107,7 @@
 		5599A7F81D130D4F00C9AB6A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E94E689D1D1323A4002509E6 /* UIViewController + Error.swift */,
 				5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */,
 			);
 			path = UI;
@@ -235,7 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5599A7DF1D12FD5600C9AB6A /* AppDelegate.swift in Sources */,
+				E94E689A1D131AA5002509E6 /* CO2Value.swift in Sources */,
+				E94E689C1D131BA6002509E6 /* Result.swift in Sources */,
 				5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */,
+				E94E689E1D1323A4002509E6 /* UIViewController + Error.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
