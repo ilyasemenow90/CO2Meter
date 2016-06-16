@@ -6,4 +6,5 @@ use_frameworks!
 target 'CO2' do
     pod 'Charts'
     pod 'Backendless'
+    pod 'DynamicColor', '~> 2.4.0'
 end

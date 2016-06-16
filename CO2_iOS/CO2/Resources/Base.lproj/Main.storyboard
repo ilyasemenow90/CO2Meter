@@ -20,7 +20,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountains" translatesAutoresizingMaskIntoConstraints="NO" id="LBO-pv-Jeb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSK-Ga-ctU">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSK-Ga-ctU" customClass="Co2MeterBackgroundView" customModule="CO2" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuC-aj-qPr">
@@ -42,7 +42,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.078431372550000003" green="0.46274509800000002" blue="0.94901960780000005" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.46274509800000002" blue="0.94901960780000005" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wLg-VI-IOO" secondAttribute="trailing" id="5hV-yS-JR7"/>
                                     <constraint firstAttribute="trailing" secondItem="vT1-fo-D75" secondAttribute="trailing" id="5ht-Ah-stx"/>
@@ -69,6 +69,9 @@
                             <constraint firstAttribute="trailing" secondItem="LBO-pv-Jeb" secondAttribute="trailing" id="rKH-Rh-RAo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="rSK-Ga-ctU" id="BIo-d6-yUr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

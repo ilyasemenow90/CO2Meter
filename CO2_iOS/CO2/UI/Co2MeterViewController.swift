@@ -9,5 +9,17 @@
 import UIKit
 
 class Co2MeterViewController: UIViewController {
-
+    @IBOutlet weak var backgroundView: Co2MeterBackgroundView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        updateBackgound()
+    }
+    
+    func updateBackgound() {
+        UIView.animateWithDuration(1.0) {
+            self.backgroundView.updateColorWithCO2(1500)
+        }
+    }
 }

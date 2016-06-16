@@ -12,6 +12,9 @@
 		5599A7FA1D130D4F00C9AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F31D130D4F00C9AB6A /* LaunchScreen.storyboard */; };
 		5599A7FB1D130D4F00C9AB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F51D130D4F00C9AB6A /* Main.storyboard */; };
 		5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */; };
+		5599A8001D1318A300C9AB6A /* Co2MeterBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7FF1D1318A300C9AB6A /* Co2MeterBackgroundView.swift */; };
+		5599A8031D131CBA00C9AB6A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A8021D131CBA00C9AB6A /* Color.swift */; };
+		5599A8051D1322AE00C9AB6A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A8041D1322AE00C9AB6A /* Settings.swift */; };
 		71CF5C679AC8E8679D6E3716 /* Pods_CO2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C26330BA8A9FFDC953FF918 /* Pods_CO2.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,9 @@
 		5599A7F61D130D4F00C9AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5599A7F71D130D4F00C9AB6A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Co2MeterViewController.swift; sourceTree = "<group>"; };
+		5599A7FF1D1318A300C9AB6A /* Co2MeterBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Co2MeterBackgroundView.swift; sourceTree = "<group>"; };
+		5599A8021D131CBA00C9AB6A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5599A8041D1322AE00C9AB6A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		B1A2868FDAF1EEEAA2ADC8ED /* Pods-CO2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.release.xcconfig"; sourceTree = "<group>"; };
 		F8EC6002CBE7809B8022A027 /* Pods-CO2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +76,7 @@
 		5599A7DD1D12FD5600C9AB6A /* CO2 */ = {
 			isa = PBXGroup;
 			children = (
+				5599A8011D131C9F00C9AB6A /* Helpers */,
 				5599A7F11D130D4F00C9AB6A /* Resources */,
 				5599A7F81D130D4F00C9AB6A /* UI */,
 				5599A7F01D13070B00C9AB6A /* Model */,
@@ -81,6 +88,7 @@
 		5599A7F01D13070B00C9AB6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5599A8041D1322AE00C9AB6A /* Settings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,8 +108,17 @@
 			isa = PBXGroup;
 			children = (
 				5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */,
+				5599A7FF1D1318A300C9AB6A /* Co2MeterBackgroundView.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		5599A8011D131C9F00C9AB6A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5599A8021D131CBA00C9AB6A /* Color.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		FA92E91EBBABE49EE8E3A6E9 /* Frameworks */ = {
@@ -234,8 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5599A8001D1318A300C9AB6A /* Co2MeterBackgroundView.swift in Sources */,
+				5599A8031D131CBA00C9AB6A /* Color.swift in Sources */,
 				5599A7DF1D12FD5600C9AB6A /* AppDelegate.swift in Sources */,
 				5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */,
+				5599A8051D1322AE00C9AB6A /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
