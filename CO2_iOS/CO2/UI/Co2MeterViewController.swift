@@ -14,10 +14,10 @@ class Co2MeterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        updateBackgound()
+        updateBackground()
     }
     
-    func updateBackgound() {
+    func updateBackground() {
         UIView.animateWithDuration(1.0) {
             self.backgroundView.updateColorWithCO2(1500)
         }
