@@ -19,7 +19,7 @@ class Co2MeterViewController: UIViewController {
     
     func updateBackground() {
         UIView.animateWithDuration(1.0) {
-            self.backgroundView.updateColorWithCO2(1500)
+            self.backgroundView.updateColorWithCO2(800)
         }
     }
 }

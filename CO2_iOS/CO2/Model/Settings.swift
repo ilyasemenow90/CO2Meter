@@ -11,6 +11,6 @@ import Foundation
 struct Settings {
     struct CO2 {
         static let min: Int = 100
-        static let max: Int = 1000
+        static let max: Int = 1500
     }
 }
