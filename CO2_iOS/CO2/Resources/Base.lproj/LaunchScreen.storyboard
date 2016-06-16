@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CO²" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wb7-fL-IBa">
-                                        <rect key="frame" x="216" y="191" width="169" height="119"/>
+                                        <rect key="frame" x="0.0" y="191" width="600" height="119"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -38,10 +38,11 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.46274509803921571" blue="0.94901960784313721" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Wb7-fL-IBa" firstAttribute="centerX" secondItem="FSP-P3-oko" secondAttribute="centerX" id="7Er-2f-YBl"/>
                                     <constraint firstAttribute="trailing" secondItem="e2b-MK-r70" secondAttribute="trailing" id="7hO-eD-PXU"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wb7-fL-IBa" secondAttribute="trailing" id="JbB-Yc-JEG"/>
                                     <constraint firstAttribute="bottom" secondItem="e2b-MK-r70" secondAttribute="bottom" id="O41-LW-X9u"/>
                                     <constraint firstItem="e2b-MK-r70" firstAttribute="top" secondItem="Wb7-fL-IBa" secondAttribute="bottom" constant="8" id="W5I-Wt-biC"/>
+                                    <constraint firstItem="Wb7-fL-IBa" firstAttribute="leading" secondItem="FSP-P3-oko" secondAttribute="leading" id="jLp-ff-4cf"/>
                                     <constraint firstItem="e2b-MK-r70" firstAttribute="leading" secondItem="FSP-P3-oko" secondAttribute="leading" id="qpE-MJ-toC"/>
                                     <constraint firstItem="Wb7-fL-IBa" firstAttribute="centerY" secondItem="FSP-P3-oko" secondAttribute="centerY" constant="-50" id="tPh-uw-xHI"/>
                                 </constraints>
