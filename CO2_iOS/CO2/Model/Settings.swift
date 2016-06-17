@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct Settings {
+struct Settings {    
     struct CO2 {
-        static let min: Int = 100
-        static let max: Int = 1500
+        static let good: Int = 100
+        static let normal: Int = 1500
+        static let bad: Int = 1500
     }
 }

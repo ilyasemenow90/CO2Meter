@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5520CEDB1D13CA790032B1F4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5520CEDA1D13CA790032B1F4 /* Image.swift */; };
 		5599A7DF1D12FD5600C9AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A7DE1D12FD5600C9AB6A /* AppDelegate.swift */; };
 		5599A7F91D130D4F00C9AB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F21D130D4F00C9AB6A /* Assets.xcassets */; };
 		5599A7FA1D130D4F00C9AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5599A7F31D130D4F00C9AB6A /* LaunchScreen.storyboard */; };
@@ -16,10 +17,14 @@
 		5599A8031D131CBA00C9AB6A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A8021D131CBA00C9AB6A /* Color.swift */; };
 		5599A8051D1322AE00C9AB6A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A8041D1322AE00C9AB6A /* Settings.swift */; };
 		71CF5C679AC8E8679D6E3716 /* Pods_CO2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C26330BA8A9FFDC953FF918 /* Pods_CO2.framework */; };
+		E94E689A1D131AA5002509E6 /* CO2Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E68991D131AA5002509E6 /* CO2Value.swift */; };
+		E94E689C1D131BA6002509E6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E689B1D131BA6002509E6 /* Result.swift */; };
+		E94E689E1D1323A4002509E6 /* UIViewController + Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E689D1D1323A4002509E6 /* UIViewController + Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C26330BA8A9FFDC953FF918 /* Pods_CO2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CO2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5520CEDA1D13CA790032B1F4 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		5599A7DB1D12FD5600C9AB6A /* CO2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CO2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5599A7DE1D12FD5600C9AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5599A7F21D130D4F00C9AB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +36,9 @@
 		5599A8021D131CBA00C9AB6A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5599A8041D1322AE00C9AB6A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		B1A2868FDAF1EEEAA2ADC8ED /* Pods-CO2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.release.xcconfig"; sourceTree = "<group>"; };
+		E94E68991D131AA5002509E6 /* CO2Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CO2Value.swift; sourceTree = "<group>"; };
+		E94E689B1D131BA6002509E6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E94E689D1D1323A4002509E6 /* UIViewController + Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Error.swift"; sourceTree = "<group>"; };
 		F8EC6002CBE7809B8022A027 /* Pods-CO2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CO2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CO2/Pods-CO2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				5599A8041D1322AE00C9AB6A /* Settings.swift */,
+				E94E68991D131AA5002509E6 /* CO2Value.swift */,
+				E94E689B1D131BA6002509E6 /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,6 +117,7 @@
 		5599A7F81D130D4F00C9AB6A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E94E689D1D1323A4002509E6 /* UIViewController + Error.swift */,
 				5599A7FD1D130E3400C9AB6A /* Co2MeterViewController.swift */,
 				5599A7FF1D1318A300C9AB6A /* Co2MeterBackgroundView.swift */,
 			);
@@ -117,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				5599A8021D131CBA00C9AB6A /* Color.swift */,
+				5520CEDA1D13CA790032B1F4 /* Image.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -252,10 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5599A8001D1318A300C9AB6A /* Co2MeterBackgroundView.swift in Sources */,
+				5520CEDB1D13CA790032B1F4 /* Image.swift in Sources */,
 				5599A8031D131CBA00C9AB6A /* Color.swift in Sources */,
 				5599A7DF1D12FD5600C9AB6A /* AppDelegate.swift in Sources */,
+				E94E689A1D131AA5002509E6 /* CO2Value.swift in Sources */,
+				E94E689C1D131BA6002509E6 /* Result.swift in Sources */,
 				5599A7FE1D130E3400C9AB6A /* Co2MeterViewController.swift in Sources */,
 				5599A8051D1322AE00C9AB6A /* Settings.swift in Sources */,
+				E94E689E1D1323A4002509E6 /* UIViewController + Error.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
